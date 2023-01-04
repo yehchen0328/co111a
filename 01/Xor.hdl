@@ -4,8 +4,7 @@
 // File name: projects/01/Xor.hdl
 
 /**
- * Exclusive-or gate:
- * out = not (a == b)
+ * Exclusive-or gate: out = ! (a == b)
  */
 
 CHIP Xor {
@@ -14,4 +13,9 @@ CHIP Xor {
 
     PARTS:
     // Put your code here:
+    Not(in=a,out=na);
+    Not(in=b,out=nb);
+    And(a=na,b=b,out=c);
+    And(a=a,b=nb,out=d);
+    Or(a=c,b=d,out=out);
 }
