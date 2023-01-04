@@ -10,6 +10,7 @@
 課程教材 | https://gitlab.com/cccnqu111/co
 
 
-第一章至第二章(除了ALU之外)其他是參考網路上寫 ALU是直接複製/n
-第三章是按照影片教學/n
-第四和第五章是複製duke people
+第一章至第二章(除了ALU之外)其他是參考網路上與圖片寫ALU是直接複製duke peoplehttps://people.duke.edu/~nts9/logicgates/ALU.hdl  
+第三章是按照影片教學  
+https://www.youtube.com/watch?v=lo54MEu7u9A&list=LL&index=5    
+第四和第五章是複製duke people  
